@@ -37,6 +37,7 @@ if (isset($_GET["id"])) {
 
         <body>
             <div class="container mt-5">
+                <img src="<?php echo $row['picture']; ?>" class="" alt="Article Image">
                 <h1><?php echo $title; ?></h1>
                 <p><?php echo $description; ?></p>
                 <p>Author: <?php echo $author; ?></p>
